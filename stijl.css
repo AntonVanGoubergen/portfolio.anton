@@ -1,0 +1,127 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  padding: 3rem;
+}
+
+header p {
+  font-size: 7rem;
+  color: #0000FF;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  animation: text;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text {
+  0% {color: blue;}
+  50% {color: #3D7BE6;}
+  100%% {color: blue;}
+}
+
+ul {
+  margin-bottom: 10rem;
+}
+
+
+ul li a {
+  text-decoration: none;
+  background-color:#FF0000;
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+
+ul li {
+margin-bottom: 2rem;
+}
+
+
+ul li a:hover {
+  background-color: #FFFFFF;
+  color: #FF0000;
+}
+
+img {
+  max-width: 300px;
+
+}
+
+img:hover {
+    transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+}
+
+
+div {
+  text-align: center;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.art7 img {
+  height: 200px;
+}
+
+h2 {
+  font-weight: 700;
+  color: #0000FF;
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  padding-bottom: 2rem;
+  border-bottom: 5px solid #0000FF;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+
+footer p {
+  color: #FF0000;
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+@media (min-width:1300px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  h2 {
+    border: 5px solid #0000FF;
+  }
+
+  ul li a {
+    color: #0000FF;
+    background-color: white;
+    margin-right: 5rem;
+  }
+
+  ul li {
+    display: inline;
+  }
+
+  ul li a:hover {
+    background-color: #0000FF;
+    color: white;
+  }
+
+  div {
+    display: block;
+  }
+
+  h3 {
+    text-align: center;
+  }
+}
